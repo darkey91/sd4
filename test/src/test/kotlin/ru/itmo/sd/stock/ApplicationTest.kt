@@ -10,7 +10,6 @@ import org.junit.jupiter.api.TestInstance
 import org.testcontainers.containers.FixedHostPortGenericContainer
 import org.testcontainers.containers.GenericContainer
 import org.testcontainers.junit.jupiter.Container
-import ru.itmo.sd.stock.entity.User
 import java.math.BigDecimal
 import java.net.URI
 import java.net.URLEncoder
@@ -18,7 +17,6 @@ import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 import java.nio.charset.StandardCharsets
-import kotlin.test.assertNotEquals
 import kotlin.test.assertNotNull
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
